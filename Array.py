@@ -4,56 +4,56 @@
 
 #===============================
 # Example List [] :
-# Names = ["Kadal", "Mesir", "Kodal", "Mangan", "Jembut"]
+Names = ["Kadal", "Mesir", "Kodal", "Mangan", "Jembut"]
 
-# print(Names[0])
-# print(Names[1])
-# print(Names[2])
-# print(Names[3])
-# print(Names[4])
-# print(Names[5)
+print(Names[0])
+print(Names[1])
+print(Names[2])
+print(Names[3])
+print(Names[4])
+print(Names[5)
 
-# for Name in Names :
-   # print(Name, end=" ")
+for Name in Names :
+   print(Name, end=" ")
 
 #===============================
 # Example Tuple () :
-# Names = ["Kadal", "Mesir", "Kodal", "Mangan", "Jembut"]
+Names = ["Kadal", "Mesir", "Kodal", "Mangan", "Jembut"]
 
-# Names[2] = "Gondrong"
-# Names.append("Gondrong")
-# Names.remove("Mangan")
-# Names.pop(1)
-# Names.clear()
+Names[2] = "Gondrong"
+Names.append("Gondrong")
+Names.remove("Mangan")
+Names.pop(1)
+Names.clear()
 
-# for Name in Names :
-   # print(Name, end=" ")
+for Name in Names :
+   print(Name, end=" ")
 
 #===============================
 # Example Set {} :
 Names = {"Kadal", "Mesir", "Kodal", "Mangan", "Jembut"}
 
-# Names.add("Gondrong")
-# Names.remove("Jembut")
-# Names.append("Gondrong")
-# Names.pop()
-# Names.clear()
+Names.add("Gondrong")
+Names.remove("Jembut")
+Names.append("Gondrong")
+Names.pop()
+Names.clear()
 
-#for Name in Names :
-   # print(Name, end=" ")
+for Name in Names :
+   print(Name, end=" ")
 
 # Example Logic
 #--------------------------------
-# if "Jembut" in Names :
-    # print("Jembut Was Found")
-# else :
-    # print("Jembut Was Not Found")
+if "Jembut" in Names :
+    print("Jembut Was Found")
+else :
+    print("Jembut Was Not Found")
 
-# or
-# if "Kunam" in Names :
-    # print("Kunam Was Found")
-# else :
-    # print("Kunam Was Not Found")
+or
+if "Kunam" in Names :
+    print("Kunam Was Found")
+else :
+    print("Kunam Was Not Found")
 
 # or
 Name = input("Enter a Name to Search For : ")
